@@ -1,0 +1,20 @@
+{
+  "short_name": "Varsha & Manikanth",
+  "name": "Varsha & Manikanth",
+  "icons": [
+    {
+      "src":"images/cover_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/cover_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#FFFFFF",
+  "theme_color": "#e91e63",
+  "display": "standalone"
+}

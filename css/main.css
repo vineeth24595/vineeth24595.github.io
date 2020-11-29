@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'LoveGlitter';
+    src: url('../fonts/I_Love_Glitter.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AutumnInNovember';
+    src: url('../fonts/Autumn_in_November.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MotionPicture';
+    src: url('../fonts/motion_picture.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Angelface';
+    src: url('../fonts/Angelface.otf') format('opentype');
+}
+
+body {
+    background-color: #fcfcfc;
+}
+
+nav {
+    height: 64px;
+    line-height: 56px;
+}
+
+.semi-black-text {
+    color: #444;
+}
+
+.semi-black {
+    background-color: #444 !important;
+}
+
+nav a.button-collapse {
+    display: inherit;
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    width: 64px;
+    margin: 0px;
+}
+
+nav a.button-collapse i {
+    width: 100%;
+    height: 100%;
+}
+
+.with-padding {
+    padding: 20px;
+}
+
+.grooms-name {
+    width: 100%;
+    z-index: 2;
+    font-size: 36px;
+    line-height: 64px;
+    color: #444;
+    font-family: AutumnInNovember;
+}
+
+.save-date-font {
+    font-family: AutumnInNovember;
+}
+
+.save-date-card{
+    min-height: 500px;
+}
+
+.grooms-name .bride {
+    width: calc(50% - 28px);
+    float: left;
+    text-align: right;
+}
+
+.grooms-name .groom {
+    width: calc(50% - 28px);
+    float: left;
+    text-align: left;
+}
+
+.grooms-name .heart {
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    width: 56px
+}
+
+.modal .modal-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0980392);
+    padding: 6px 6px;
+    height: 56px;
+}
+
+.grooms-name .heart .fa-heart {
+    height: 64px;
+    line-height: 64px;
+}
+
+
+.motion-picture-font-text {
+    font-family: MotionPicture;
+    font-size: 44px;
+}
+
+.motion-picture {
+    font-family: MotionPicture
+}
+
+.angel-face-font-text {
+    font-family: Angelface;
+    font-size: 35px;
+}
+.search-input .input-field label.active {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.search-input .input-field {
+    margin: 0;
+    height: 64px;
+}
+
+.center-image {
+    height: 200px;
+    display: block;
+    margin: 16px auto;
+}
+
+.search-input .input-field input {
+    height: 100%;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.search-input .input-field i {
+    height: 64px;
+    line-height: 64px;
+}
+
+.search-input .input-field label {
+    top: 0;
+}
+
+
+.save-the-date {
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    right: 2%;
+    font-size: 20px;
+    font-family: LoveGlitter;
+}
+
+@media (max-width: 675px) {
+    .save-the-date {
+        z-index: 2;
+        width: 100%;
+        right: 0%;
+        top: 40px;
+        text-align: center;
+        font-size: 20px;
+        font-family: LoveGlitter;
+    }
+
+    .save-the-date .fa-calendar {
+        display: none;
+    }
+
+    nav {
+        height: 88px;
+    }
+
+    div.navbar-fixed {
+        height: 88px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .grooms-name {
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .grooms-name {
+        font-size: 20px;
+    }
+
+    .save-the-date {
+        font-size: 17px;
+        top: 32px;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .grooms-name {
+        padding-left: 40px;
+    }
+
+    .save-the-date {
+        padding-left: 40px;
+    }
+
+}
+
+.cover {
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .cover {
+        height: 250px;
+    }
+}
+
+@media (min-width: 800px) {
+    .cover {
+        height: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cover {
+        height: 550px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .cover {
+        height: 800px;
+    }
+}
+
+
+.cover-wrap {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fade.ng-hide {
+    opacity: 0;
+}
+
+.fade.ng-hide-remove,
+.fade.ng-hide-add {
+    display: block !important;
+}
+
+.fade.ng-hide-remove {
+    transition: all linear 300ms;
+}
+
+.fade.ng-hide-add {
+    transition: all linear 300ms;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Modal */
+
+.modal-header {
+    padding: 0 !important;
+    height: 64px !important;
+    position: relative;
+}
+
+@media only screen and (min-width: 993px) {
+    .modal-header-content {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .modal-header-content {
+        width: 85%;
+    }
+}
+
+.modal-header-content {
+    margin: 0 auto;
+    max-width: none;
+    width: 90%;
+}
+
+.modal .btn-back {
+    text-transform: none;
+    margin: 0;
+    line-height: 64px;
+    height: 64px;
+}
+
+.modal.modal-bottom-sheet__full-height {
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+}
+
+.modal.modal-bottom-sheet__full-height .modal-title {
+    line-height: 64px;
+    height: 64px;
+    margin: 0;
+    position: absolute;
+    width: 90%;
+}
+
+.modal.modal-bottom-sheet__full-height .modal-content {
+    height: calc(100% - 64px);
+    overflow-y: auto;
+}
+
+.modal.modal-bottom-sheet__full-height .card-image {
+    padding: 15px 0;
+}
+
+.modal.modal-bottom-sheet__full-height .card-image img {
+    width: auto !important;
+}
+
+.modal.modal-bottom-sheet__full-height .modal-footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.collapsible-body {
+    padding: 0;
+}
+
+h5.how-to-give {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
+
+.modal .account-detail {
+    padding: 0px 30px;
+}
